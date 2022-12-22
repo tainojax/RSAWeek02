@@ -1,0 +1,218 @@
+/* 
+https://freelogocreator.com/studio?logo_maker=8320&Expires=1670988943&Signature=bSNZxARPltUQq43n6N28D-y7Ow-NA5gO9gtdA8UQKSQhHvEI1csM3sRx-luZX8uKVu8TR2Bl4B9aOEB8nLyEtOkys~vDf5IO9nSsk9-HhHwkz7oIJYP~FIpkCII8nQ8~Je9vRx3igT1XhaUdZ4NIke~loXl~-4PK7R-qZJX0JVA_&Key_Pair_Id=APKAI5ZVHAXN65CHVU2Q&inspiration=394&colors=[f4fbfd=fff7e6,36cfc9=fbb942,017078=ad4e00,9fede5=ffd591]&fonts=
+logo color #FBB942 
+dulcez color #7D2929
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+
+  background: url(../images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1080px;
+  min-width: 750px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.mainMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem 0.5rem;
+  background-color: white;
+}
+
+.mainMenuLeft {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  gap: 1em;
+  font-size: 20px;
+}
+
+.mainMenuLeft a {
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+}
+
+.mainMenuRight {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.flex-container h1 {
+  color: #7d2929;
+  padding-top: 0.15em;
+}
+
+.flex-container p {
+  padding-top: 0.5em;
+  font-size: large;
+}
+
+.polaroid {
+  /* https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+  width: 331px;
+  height: 420px;
+  margin: 4px;
+  margin-top: 12px;
+  padding: 1em;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px rgba(100, 86, 3, 0.882); /*#aaaaaa; */
+}
+
+.polaroid img {
+  width: 300px;
+  height: 250px;
+}
+
+.polaroid a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  background-color: #fbb942;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem 0.5rem;
+  padding: 0.5rem 1rem 1rem 0.5rem;
+  background-color: #fbb942;
+  gap: 0.75em;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.footer-navigation-copywright {
+  gap: 0.75em;
+  padding-top: 10px;
+  font-size: small;
+}
+
+.header {
+  /* https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.footer {
+  /* https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fbb942;
+  text-align: center;
+}
+
+/* contact us page
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #fbb942;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #7d2929;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  max-width: 800px;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 2rem;
+  color: #7d2929;
+}
+
+.contactus {
+  font-weight: 900;
+  font-size: 25px;
+  background-color: #fbb942;
+}
+
+.contactus-description {
+  font-weight: 600;
+  font-size: 15px;
+  color: #7d2929;
+}
+
+.socialMedia img {
+  width: 34px;
+  height: 34px;
+}
